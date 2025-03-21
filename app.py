@@ -9,7 +9,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = "myytjyujyusupersecretkey"
+app.secret_key = "superdupersecretkey"
 
 # Set correct paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -28,17 +28,21 @@ logging.basicConfig(
 
 
 def convert_to_pdf(input_path):
-    """Convert DOCX to PDF using LibreOffice CLI (Works on PythonAnywhere)."""
+    """Convert DOCX to PDF using LibreOffice CLI and remove DOCX after conversion."""
     output_path = input_path.replace(".docx", ".pdf")
     try:
         subprocess.run(
             ["libreoffice", "--headless", "--convert-to", "pdf", input_path, "--outdir", os.path.dirname(input_path)],
             check=True
         )
-        return output_path if os.path.exists(output_path) else None
+        if os.path.exists(output_path):
+            os.remove(input_path)  # Delete DOCX after successful conversion
+            return output_path
+        return None
     except subprocess.CalledProcessError as e:
         logging.error(f"Error converting DOCX to PDF: {e}")
         return None
+
 
 
 def fill_form(template_path, output_path, data, pdf_url):
