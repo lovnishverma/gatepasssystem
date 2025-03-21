@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate Pass Application</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Gate Pass Request Form</h2>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="alert alert-warning">
+              {% for message in messages %}
+                <p>{{ message }}</p>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('submit_form') }}" method="POST">
+            <div class="mb-3">
+                <label class="form-label">Name:</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Roll Number:</label>
+                <input type="text" name="roll_no" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">From Date:</label>
+                <input type="date" name="datefrom" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">To Date:</label>
+                <input type="date" name="dateto" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Arrival Date:</label>
+                <input type="date" name="arrivaldate" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Arrival Time:</label>
+                <input type="time" name="arrivaltime" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Home Address:</label>
+                <input type="text" name="home_address" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Student Contact No:</label>
+                <input type="text" name="student_contact_no" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Parent Name:</label>
+                <input type="text" name="parent_name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Parent Contact No:</label>
+                <input type="text" name="parent_contact_no" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

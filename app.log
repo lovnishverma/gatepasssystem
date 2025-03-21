@@ -1,0 +1,810 @@
+2025-03-20 20:01:19,355 - ERROR - Error processing form: (sqlite3.OperationalError) no such table: applicant
+[SQL: INSERT INTO applicant (name, roll_no, date_from, date_to, arrival_date, arrival_time, home_address, student_contact_no, parent_name, parent_contact_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('Lovn', '18', '2025-03-21', '2025-03-21', '2025-03-21', '01:31', 'village bag salana, tehsil karsog, distt. Mandi H.P', '5252252', 'khrm raj', '52852828')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-20 20:05:39,521 - ERROR - Error filling form: Package not found at '/home/ravinder2115115/mysite/template.docx'
+2025-03-20 20:10:54,024 - ERROR - Error filling form: wkhtmltopdf exited with non-zero code 1. error:
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ravinder2115115'
+Exit with code 1, due to unknown error.
+
+2025-03-20 20:11:49,190 - ERROR - Error filling form: wkhtmltopdf exited with non-zero code 1. error:
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ravinder2115115'
+Exit with code 1, due to unknown error.
+
+2025-03-20 20:15:37,881 - ERROR - Error filling form: gatepass_template.html
+2025-03-20 20:18:34,713 - ERROR - Error filling form: gatepass_template.html
+2025-03-20 20:19:20,541 - WARNING - Ignored `color-scheme:dark` at 5:3701, unknown property.
+2025-03-20 20:19:20,542 - WARNING - Expected a media type, got '(prefers-reduced-motion:no-preference)'
+2025-03-20 20:19:20,544 - WARNING - Invalid media type ' (prefers-reduced-motion:no-preference)' the whole @media rule was ignored at 5:5383.
+2025-03-20 20:19:20,544 - WARNING - Ignored `text-align:var(--bs-body-text-align)` at 5:5652, invalid value.
+2025-03-20 20:19:20,545 - WARNING - Ignored `border-top:var(--bs-border-width) solid` at 5:5834, invalid value.
+2025-03-20 20:19:20,547 - WARNING - Ignored `font-size:calc(1.375rem + 1.5vw)` at 5:6030, invalid value.
+2025-03-20 20:19:20,547 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,548 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:6063.
+2025-03-20 20:19:20,548 - WARNING - Ignored `font-size:calc(1.325rem + .9vw)` at 5:6121, invalid value.
+2025-03-20 20:19:20,548 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,549 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:6153.
+2025-03-20 20:19:20,549 - WARNING - Ignored `font-size:calc(1.3rem + .6vw)` at 5:6209, invalid value.
+2025-03-20 20:19:20,549 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,549 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:6239.
+2025-03-20 20:19:20,550 - WARNING - Ignored `font-size:calc(1.275rem + .3vw)` at 5:6298, invalid value.
+2025-03-20 20:19:20,550 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,551 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:6330.
+2025-03-20 20:19:20,552 - WARNING - Ignored `text-decoration-skip-ink:none` at 5:6598, unknown property.
+2025-03-20 20:19:20,555 - WARNING - Ignored `color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1))` at 5:7120, invalid value.
+2025-03-20 20:19:20,560 - WARNING - Ignored `text-align:-webkit-match-parent` at 5:8044, invalid value.
+2025-03-20 20:19:20,563 - WARNING - Invalid or unsupported selector '[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator', (<IdentToken -webkit-calendar-picker-indicator>, 'Expected a supported pseudo-element, got -webkit-calendar-picker-indicator')
+2025-03-20 20:19:20,564 - WARNING - Invalid or unsupported selector '::-moz-focus-inner', (<IdentToken -moz-focus-inner>, 'Expected a supported pseudo-element, got -moz-focus-inner')
+2025-03-20 20:19:20,564 - WARNING - Ignored `resize:vertical` at 5:8883, unknown property.
+2025-03-20 20:19:20,565 - WARNING - Ignored `font-size:calc(1.275rem + .3vw)` at 5:9007, invalid value.
+2025-03-20 20:19:20,566 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,566 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:9059.
+2025-03-20 20:19:20,567 - WARNING - Invalid or unsupported selector '::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field', (<IdentToken -webkit-datetime-edit-day-field>, 'Expected a supported pseudo-element, got -webkit-datetime-edit-day-field')
+2025-03-20 20:19:20,567 - WARNING - Invalid or unsupported selector '::-webkit-inner-spin-button', (<IdentToken -webkit-inner-spin-button>, 'Expected a supported pseudo-element, got -webkit-inner-spin-button')
+2025-03-20 20:19:20,568 - WARNING - Ignored `outline-offset:-2px` at 5:9433, unknown property.
+2025-03-20 20:19:20,568 - WARNING - Invalid or unsupported selector '::-webkit-color-swatch-wrapper', (<IdentToken -webkit-color-swatch-wrapper>, 'Expected a supported pseudo-element, got -webkit-color-swatch-wrapper')
+2025-03-20 20:19:20,569 - WARNING - Invalid or unsupported selector '::-webkit-file-upload-button', (<IdentToken -webkit-file-upload-button>, 'Expected a supported pseudo-element, got -webkit-file-upload-button')
+2025-03-20 20:19:20,569 - WARNING - Invalid or unsupported selector '::file-selector-button', unknown pseudo-element: file-selector-button
+2025-03-20 20:19:20,570 - WARNING - Ignored `font-size:calc(1.625rem + 4.5vw)` at 5:9906, invalid value.
+2025-03-20 20:19:20,571 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,571 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:9971.
+2025-03-20 20:19:20,572 - WARNING - Ignored `font-size:calc(1.575rem + 3.9vw)` at 5:10035, invalid value.
+2025-03-20 20:19:20,572 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,572 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:10100.
+2025-03-20 20:19:20,573 - WARNING - Ignored `font-size:calc(1.525rem + 3.3vw)` at 5:10166, invalid value.
+2025-03-20 20:19:20,573 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,573 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:10231.
+2025-03-20 20:19:20,574 - WARNING - Ignored `font-size:calc(1.475rem + 2.7vw)` at 5:10295, invalid value.
+2025-03-20 20:19:20,574 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,575 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:10360.
+2025-03-20 20:19:20,575 - WARNING - Ignored `font-size:calc(1.425rem + 2.1vw)` at 5:10426, invalid value.
+2025-03-20 20:19:20,575 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,576 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:10491.
+2025-03-20 20:19:20,576 - WARNING - Ignored `font-size:calc(1.375rem + 1.5vw)` at 5:10555, invalid value.
+2025-03-20 20:19:20,577 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,577 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:10620.
+2025-03-20 20:19:20,579 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-border-color)` at 5:11230, invalid value.
+2025-03-20 20:19:20,580 - WARNING - Ignored `padding-right:calc(var(--bs-gutter-x) * .5)` at 5:11641, invalid value.
+2025-03-20 20:19:20,581 - WARNING - Ignored `padding-left:calc(var(--bs-gutter-x) * .5)` at 5:11685, invalid value.
+2025-03-20 20:19:20,582 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,582 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:11763.
+2025-03-20 20:19:20,582 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,583 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:11830.
+2025-03-20 20:19:20,583 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,583 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:11911.
+2025-03-20 20:19:20,584 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,584 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:12006.
+2025-03-20 20:19:20,584 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,584 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:12117.
+2025-03-20 20:19:20,585 - WARNING - Ignored `margin-top:calc(-1 * var(--bs-gutter-y))` at 5:12468, invalid value.
+2025-03-20 20:19:20,585 - WARNING - Ignored `margin-right:calc(-.5 * var(--bs-gutter-x))` at 5:12509, invalid value.
+2025-03-20 20:19:20,586 - WARNING - Ignored `margin-left:calc(-.5 * var(--bs-gutter-x))` at 5:12553, invalid value.
+2025-03-20 20:19:20,586 - WARNING - Ignored `padding-right:calc(var(--bs-gutter-x) * .5)` at 5:12643, invalid value.
+2025-03-20 20:19:20,587 - WARNING - Ignored `padding-left:calc(var(--bs-gutter-x) * .5)` at 5:12687, invalid value.
+2025-03-20 20:19:20,596 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,597 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:14279.
+2025-03-20 20:19:20,597 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,597 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:16019.
+2025-03-20 20:19:20,597 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,598 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:17759.
+2025-03-20 20:19:20,598 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,598 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:19499.
+2025-03-20 20:19:20,599 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,599 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:21240.
+2025-03-20 20:19:20,600 - WARNING - Ignored `box-shadow:inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)))` at 5:23867, unknown property.
+2025-03-20 20:19:20,601 - WARNING - Ignored `border-top:calc(var(--bs-border-width) * 2) solid currentcolor` at 5:24064, invalid value.
+2025-03-20 20:19:20,608 - WARNING - Ignored `overflow-x:auto` at 5:27686, unknown property.
+2025-03-20 20:19:20,608 - WARNING - Expected a media type, got '(max-width:575.98px)'
+2025-03-20 20:19:20,608 - WARNING - Invalid media type ' (max-width:575.98px)' the whole @media rule was ignored at 5:27735.
+2025-03-20 20:19:20,609 - WARNING - Expected a media type, got '(max-width:767.98px)'
+2025-03-20 20:19:20,609 - WARNING - Invalid media type ' (max-width:767.98px)' the whole @media rule was ignored at 5:27834.
+2025-03-20 20:19:20,609 - WARNING - Expected a media type, got '(max-width:991.98px)'
+2025-03-20 20:19:20,610 - WARNING - Invalid media type ' (max-width:991.98px)' the whole @media rule was ignored at 5:27933.
+2025-03-20 20:19:20,610 - WARNING - Expected a media type, got '(max-width:1199.98px)'
+2025-03-20 20:19:20,610 - WARNING - Invalid media type ' (max-width:1199.98px)' the whole @media rule was ignored at 5:28032.
+2025-03-20 20:19:20,611 - WARNING - Expected a media type, got '(max-width:1399.98px)'
+2025-03-20 20:19:20,611 - WARNING - Invalid media type ' (max-width:1399.98px)' the whole @media rule was ignored at 5:28132.
+2025-03-20 20:19:20,611 - WARNING - Ignored `padding-top:calc(.375rem + var(--bs-border-width))` at 5:28281, invalid value.
+2025-03-20 20:19:20,612 - WARNING - Ignored `padding-bottom:calc(.375rem + var(--bs-border-width))` at 5:28332, invalid value.
+2025-03-20 20:19:20,612 - WARNING - Ignored `padding-top:calc(.5rem + var(--bs-border-width))` at 5:28455, invalid value.
+2025-03-20 20:19:20,613 - WARNING - Ignored `padding-bottom:calc(.5rem + var(--bs-border-width))` at 5:28504, invalid value.
+2025-03-20 20:19:20,613 - WARNING - Ignored `padding-top:calc(.25rem + var(--bs-border-width))` at 5:28593, invalid value.
+2025-03-20 20:19:20,614 - WARNING - Ignored `padding-bottom:calc(.25rem + var(--bs-border-width))` at 5:28643, invalid value.
+2025-03-20 20:19:20,615 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-border-color)` at 5:28991, invalid value.
+2025-03-20 20:19:20,615 - WARNING - Ignored `appearance:none` at 5:29095, unknown property.
+2025-03-20 20:19:20,616 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,616 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:29218.
+2025-03-20 20:19:20,617 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(13,110,253,.25)` at 5:29513, unknown property.
+2025-03-20 20:19:20,617 - WARNING - Invalid or unsupported selector '.form-control::-webkit-date-and-time-value', (<IdentToken -webkit-date-and-time-value>, 'Expected a supported pseudo-element, got -webkit-date-and-time-value')
+2025-03-20 20:19:20,618 - WARNING - Invalid or unsupported selector '.form-control::-webkit-datetime-edit', (<IdentToken -webkit-datetime-edit>, 'Expected a supported pseudo-element, got -webkit-datetime-edit')
+2025-03-20 20:19:20,618 - WARNING - Invalid or unsupported selector '.form-control::-moz-placeholder', (<IdentToken -moz-placeholder>, 'Expected a supported pseudo-element, got -moz-placeholder')
+2025-03-20 20:19:20,619 - WARNING - Invalid or unsupported selector '.form-control::placeholder', unknown pseudo-element: placeholder
+2025-03-20 20:19:20,620 - WARNING - Ignored `margin-inline-end:.75rem` at 5:30030, unknown property.
+2025-03-20 20:19:20,620 - WARNING - Ignored `pointer-events:none` at 5:30121, unknown property.
+2025-03-20 20:19:20,620 - WARNING - Ignored `border-inline-end-width:var(--bs-border-width)` at 5:30196, unknown property.
+2025-03-20 20:19:20,621 - WARNING - Invalid or unsupported selector '.form-control::-webkit-file-upload-button', (<IdentToken -webkit-file-upload-button>, 'Expected a supported pseudo-element, got -webkit-file-upload-button')
+2025-03-20 20:19:20,621 - WARNING - Ignored `margin-inline-end:.75rem` at 5:30628, unknown property.
+2025-03-20 20:19:20,622 - WARNING - Ignored `pointer-events:none` at 5:30719, unknown property.
+2025-03-20 20:19:20,622 - WARNING - Ignored `border-inline-end-width:var(--bs-border-width)` at 5:30794, unknown property.
+2025-03-20 20:19:20,623 - WARNING - Invalid or unsupported selector '.form-control::file-selector-button', unknown pseudo-element: file-selector-button
+2025-03-20 20:19:20,623 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,624 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:30983.
+2025-03-20 20:19:20,624 - WARNING - Invalid or unsupported selector '.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button', (<IdentToken -webkit-file-upload-button>, 'Expected a supported pseudo-element, got -webkit-file-upload-button')
+2025-03-20 20:19:20,625 - WARNING - Invalid or unsupported selector '.form-control:hover:not(:disabled):not([readonly])::file-selector-button', unknown pseudo-element: file-selector-button
+2025-03-20 20:19:20,626 - WARNING - Ignored `min-height:calc(1.5em + .5rem + calc(var(--bs-border-width) * 2))` at 5:31775, invalid value.
+2025-03-20 20:19:20,627 - WARNING - Ignored `margin-inline-end:.5rem` at 5:32034, unknown property.
+2025-03-20 20:19:20,627 - WARNING - Invalid or unsupported selector '.form-control-sm::-webkit-file-upload-button', (<IdentToken -webkit-file-upload-button>, 'Expected a supported pseudo-element, got -webkit-file-upload-button')
+2025-03-20 20:19:20,628 - WARNING - Ignored `margin-inline-end:.5rem` at 5:32165, unknown property.
+2025-03-20 20:19:20,628 - WARNING - Invalid or unsupported selector '.form-control-sm::file-selector-button', unknown pseudo-element: file-selector-button
+2025-03-20 20:19:20,629 - WARNING - Ignored `min-height:calc(1.5em + 1rem + calc(var(--bs-border-width) * 2))` at 5:32206, invalid value.
+2025-03-20 20:19:20,629 - WARNING - Ignored `margin-inline-end:1rem` at 5:32457, unknown property.
+2025-03-20 20:19:20,630 - WARNING - Invalid or unsupported selector '.form-control-lg::-webkit-file-upload-button', (<IdentToken -webkit-file-upload-button>, 'Expected a supported pseudo-element, got -webkit-file-upload-button')
+2025-03-20 20:19:20,630 - WARNING - Ignored `margin-inline-end:1rem` at 5:32582, unknown property.
+2025-03-20 20:19:20,631 - WARNING - Invalid or unsupported selector '.form-control-lg::file-selector-button', unknown pseudo-element: file-selector-button
+2025-03-20 20:19:20,631 - WARNING - Ignored `min-height:calc(1.5em + .75rem + calc(var(--bs-border-width) * 2))` at 5:32627, invalid value.
+2025-03-20 20:19:20,631 - WARNING - Ignored `min-height:calc(1.5em + .5rem + calc(var(--bs-border-width) * 2))` at 5:32719, invalid value.
+2025-03-20 20:19:20,632 - WARNING - Ignored `min-height:calc(1.5em + 1rem + calc(var(--bs-border-width) * 2))` at 5:32810, invalid value.
+2025-03-20 20:19:20,632 - WARNING - Ignored `height:calc(1.5em + .75rem + calc(var(--bs-border-width) * 2))` at 5:32906, invalid value.
+2025-03-20 20:19:20,633 - WARNING - Invalid or unsupported selector '.form-control-color::-moz-color-swatch', (<IdentToken -moz-color-swatch>, 'Expected a supported pseudo-element, got -moz-color-swatch')
+2025-03-20 20:19:20,633 - WARNING - Invalid or unsupported selector '.form-control-color::-webkit-color-swatch', (<IdentToken -webkit-color-swatch>, 'Expected a supported pseudo-element, got -webkit-color-swatch')
+2025-03-20 20:19:20,634 - WARNING - Ignored `height:calc(1.5em + .5rem + calc(var(--bs-border-width) * 2))` at 5:33282, invalid value.
+2025-03-20 20:19:20,634 - WARNING - Ignored `height:calc(1.5em + 1rem + calc(var(--bs-border-width) * 2))` at 5:33380, invalid value.
+2025-03-20 20:19:20,635 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-border-color)` at 5:34050, invalid value.
+2025-03-20 20:19:20,635 - WARNING - Ignored `appearance:none` at 5:34261, unknown property.
+2025-03-20 20:19:20,636 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,636 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:34277.
+2025-03-20 20:19:20,637 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(13,110,253,.25)` at 5:34396, unknown property.
+2025-03-20 20:19:20,638 - WARNING - Ignored `text-shadow:0 0 0 var(--bs-body-color)` at 5:34650, unknown property.
+2025-03-20 20:19:20,638 - WARNING - Invalid or unsupported selector '.form-select:-moz-focusring', ('Unknown pseudo-class', '-moz-focusring')
+2025-03-20 20:19:20,641 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-border-color)` at 5:35818, invalid value.
+2025-03-20 20:19:20,641 - WARNING - Ignored `appearance:none` at 5:35922, unknown property.
+2025-03-20 20:19:20,641 - WARNING - Ignored `color-adjust:exact` at 5:35971, unknown property.
+2025-03-20 20:19:20,642 - WARNING - Ignored `print-color-adjust:exact` at 5:35990, unknown property.
+2025-03-20 20:19:20,643 - WARNING - Ignored `filter:brightness(90%)` at 5:36141, unknown property.
+2025-03-20 20:19:20,643 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(13,110,253,.25)` at 5:36219, unknown property.
+2025-03-20 20:19:20,645 - WARNING - Invalid or unsupported selector '.form-check-input[type=checkbox]:indeterminate', ('Unknown pseudo-class', 'indeterminate')
+2025-03-20 20:19:20,646 - WARNING - Ignored `pointer-events:none` at 5:37182, unknown property.
+2025-03-20 20:19:20,646 - WARNING - Ignored `filter:none` at 5:37202, unknown property.
+2025-03-20 20:19:20,648 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,648 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:37745.
+2025-03-20 20:19:20,650 - WARNING - Ignored `pointer-events:none` at 5:38509, unknown property.
+2025-03-20 20:19:20,651 - WARNING - Ignored `pointer-events:none` at 5:38580, unknown property.
+2025-03-20 20:19:20,651 - WARNING - Ignored `filter:none` at 5:38600, unknown property.
+2025-03-20 20:19:20,653 - WARNING - Ignored `appearance:none` at 5:39000, unknown property.
+2025-03-20 20:19:20,653 - WARNING - Ignored `box-shadow:0 0 0 1px #fff,0 0 0 .25rem rgba(13,110,253,.25)` at 5:39084, unknown property.
+2025-03-20 20:19:20,654 - WARNING - Ignored `box-shadow:0 0 0 1px #fff,0 0 0 .25rem rgba(13,110,253,.25)` at 5:39180, unknown property.
+2025-03-20 20:19:20,654 - WARNING - Invalid or unsupported selector '.form-range::-moz-focus-outer', (<IdentToken -moz-focus-outer>, 'Expected a supported pseudo-element, got -moz-focus-outer')
+2025-03-20 20:19:20,655 - WARNING - Ignored `appearance:none` at 5:39646, unknown property.
+2025-03-20 20:19:20,656 - WARNING - Invalid or unsupported selector '.form-range::-webkit-slider-thumb', (<IdentToken -webkit-slider-thumb>, 'Expected a supported pseudo-element, got -webkit-slider-thumb')
+2025-03-20 20:19:20,656 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,656 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:39662.
+2025-03-20 20:19:20,657 - WARNING - Invalid or unsupported selector '.form-range::-webkit-slider-thumb:active', (<IdentToken -webkit-slider-thumb>, 'Expected a supported pseudo-element, got -webkit-slider-thumb')
+2025-03-20 20:19:20,657 - WARNING - Invalid or unsupported selector '.form-range::-webkit-slider-runnable-track', (<IdentToken -webkit-slider-runnable-track>, 'Expected a supported pseudo-element, got -webkit-slider-runnable-track')
+2025-03-20 20:19:20,658 - WARNING - Ignored `appearance:none` at 5:40363, unknown property.
+2025-03-20 20:19:20,658 - WARNING - Invalid or unsupported selector '.form-range::-moz-range-thumb', (<IdentToken -moz-range-thumb>, 'Expected a supported pseudo-element, got -moz-range-thumb')
+2025-03-20 20:19:20,659 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,659 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:40379.
+2025-03-20 20:19:20,659 - WARNING - Invalid or unsupported selector '.form-range::-moz-range-thumb:active', (<IdentToken -moz-range-thumb>, 'Expected a supported pseudo-element, got -moz-range-thumb')
+2025-03-20 20:19:20,660 - WARNING - Invalid or unsupported selector '.form-range::-moz-range-track', (<IdentToken -moz-range-track>, 'Expected a supported pseudo-element, got -moz-range-track')
+2025-03-20 20:19:20,660 - WARNING - Ignored `pointer-events:none` at 5:40739, unknown property.
+2025-03-20 20:19:20,661 - WARNING - Invalid or unsupported selector '.form-range:disabled::-webkit-slider-thumb', (<IdentToken -webkit-slider-thumb>, 'Expected a supported pseudo-element, got -webkit-slider-thumb')
+2025-03-20 20:19:20,661 - WARNING - Invalid or unsupported selector '.form-range:disabled::-moz-range-thumb', (<IdentToken -moz-range-thumb>, 'Expected a supported pseudo-element, got -moz-range-thumb')
+2025-03-20 20:19:20,662 - WARNING - Ignored `height:calc(3.5rem + calc(var(--bs-border-width) * 2))` at 5:41056, invalid value.
+2025-03-20 20:19:20,662 - WARNING - Ignored `min-height:calc(3.5rem + calc(var(--bs-border-width) * 2))` at 5:41111, invalid value.
+2025-03-20 20:19:20,663 - WARNING - Ignored `pointer-events:none` at 5:41356, unknown property.
+2025-03-20 20:19:20,664 - WARNING - Ignored `border:var(--bs-border-width) solid transparent` at 5:41376, invalid value.
+2025-03-20 20:19:20,664 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,665 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:41506.
+2025-03-20 20:19:20,666 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext::-moz-placeholder,.form-floating>.form-control::-moz-placeholder', (<IdentToken -moz-placeholder>, 'Expected a supported pseudo-element, got -moz-placeholder')
+2025-03-20 20:19:20,666 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext::placeholder,.form-floating>.form-control::placeholder', unknown pseudo-element: placeholder
+2025-03-20 20:19:20,667 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext:not(:-moz-placeholder-shown),.form-floating>.form-control:not(:-moz-placeholder-shown)', ('Unknown pseudo-class', '-moz-placeholder-shown')
+2025-03-20 20:19:20,668 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext:focus,.form-floating>.form-control-plaintext:not(:placeholder-shown),.form-floating>.form-control:focus,.form-floating>.form-control:not(:placeholder-shown)', ('Unknown pseudo-class', 'placeholder-shown')
+2025-03-20 20:19:20,668 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext:-webkit-autofill,.form-floating>.form-control:-webkit-autofill', ('Unknown pseudo-class', '-webkit-autofill')
+2025-03-20 20:19:20,669 - WARNING - Ignored `color:rgba(var(--bs-body-color-rgb),.65)` at 5:42597, invalid value.
+2025-03-20 20:19:20,670 - WARNING - Invalid or unsupported selector '.form-floating>.form-control:not(:-moz-placeholder-shown)~label', ('Unknown pseudo-class', '-moz-placeholder-shown')
+2025-03-20 20:19:20,670 - WARNING - Ignored `color:rgba(var(--bs-body-color-rgb),.65)` at 5:42876, invalid value.
+2025-03-20 20:19:20,671 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext~label,.form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label,.form-floating>.form-select~label', ('Unknown pseudo-class', 'placeholder-shown')
+2025-03-20 20:19:20,671 - WARNING - Ignored `inset:1rem 0.375rem` at 5:43065, unknown property.
+2025-03-20 20:19:20,672 - WARNING - Invalid or unsupported selector '.form-floating>.form-control:not(:-moz-placeholder-shown)~label::after', ('Unknown pseudo-class', '-moz-placeholder-shown')
+2025-03-20 20:19:20,672 - WARNING - Ignored `inset:1rem 0.375rem` at 5:43418, unknown property.
+2025-03-20 20:19:20,674 - WARNING - Invalid or unsupported selector '.form-floating>.form-control-plaintext~label::after,.form-floating>.form-control:focus~label::after,.form-floating>.form-control:not(:placeholder-shown)~label::after,.form-floating>.form-select~label::after', ('Unknown pseudo-class', 'placeholder-shown')
+2025-03-20 20:19:20,674 - WARNING - Ignored `color:rgba(var(--bs-body-color-rgb),.65)` at 5:43598, invalid value.
+2025-03-20 20:19:20,675 - WARNING - Invalid or unsupported selector '.form-floating>.form-control:-webkit-autofill~label', ('Unknown pseudo-class', '-webkit-autofill')
+2025-03-20 20:19:20,679 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-border-color)` at 5:44547, invalid value.
+2025-03-20 20:19:20,686 - WARNING - Ignored `margin-left:calc(var(--bs-border-width) * -1)` at 5:46028, invalid value.
+2025-03-20 20:19:20,689 - WARNING - Invalid or unsupported selector '.is-valid~.valid-feedback,.is-valid~.valid-tooltip,.was-validated :valid~.valid-feedback,.was-validated :valid~.valid-tooltip', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,689 - WARNING - Ignored `padding-right:calc(1.5em + .75rem)` at 5:46872, invalid value.
+2025-03-20 20:19:20,690 - WARNING - Ignored `background-position:right calc(.375em + .1875rem) center` at 5:47186, invalid value.
+2025-03-20 20:19:20,690 - WARNING - Ignored `background-size:calc(.75em + .375rem) calc(.75em + .375rem)` at 5:47243, invalid value.
+2025-03-20 20:19:20,690 - WARNING - Invalid or unsupported selector '.form-control.is-valid,.was-validated .form-control:valid', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,691 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-success-rgb),.25)` at 5:47420, unknown property.
+2025-03-20 20:19:20,691 - WARNING - Invalid or unsupported selector '.form-control.is-valid:focus,.was-validated .form-control:valid:focus', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,692 - WARNING - Ignored `padding-right:calc(1.5em + .75rem)` at 5:47550, invalid value.
+2025-03-20 20:19:20,692 - WARNING - Ignored `background-position:top calc(.375em + .1875rem) right calc(.375em + .1875rem)` at 5:47585, invalid value.
+2025-03-20 20:19:20,693 - WARNING - Invalid or unsupported selector '.form-select.is-valid,.was-validated .form-select:valid', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,694 - WARNING - Ignored `background-size:16px 12px,calc(.75em + .375rem) calc(.75em + .375rem)` at 5:48329, invalid value.
+2025-03-20 20:19:20,695 - WARNING - Invalid or unsupported selector '.form-select.is-valid:not([multiple]):not([size]),.form-select.is-valid:not([multiple])[size="1"],.was-validated .form-select:valid:not([multiple]):not([size]),.was-validated .form-select:valid:not([multiple])[size="1"]', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,695 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-success-rgb),.25)` at 5:48514, unknown property.
+2025-03-20 20:19:20,696 - WARNING - Invalid or unsupported selector '.form-select.is-valid:focus,.was-validated .form-select:valid:focus', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,696 - WARNING - Ignored `width:calc(3rem + calc(1.5em + .75rem))` at 5:48640, invalid value.
+2025-03-20 20:19:20,697 - WARNING - Invalid or unsupported selector '.form-check-input.is-valid,.was-validated .form-check-input:valid', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,698 - WARNING - Invalid or unsupported selector '.form-check-input.is-valid:checked,.was-validated .form-check-input:valid:checked', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,698 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-success-rgb),.25)` at 5:48997, unknown property.
+2025-03-20 20:19:20,699 - WARNING - Invalid or unsupported selector '.form-check-input.is-valid~.form-check-label,.was-validated .form-check-input:valid~.form-check-label', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,701 - WARNING - Invalid or unsupported selector '.input-group>.form-control:not(:focus).is-valid,.input-group>.form-floating:not(:focus-within).is-valid,.input-group>.form-select:not(:focus).is-valid,.was-validated .input-group>.form-control:not(:focus):valid,.was-validated .input-group>.form-floating:not(:focus-within):valid,.was-validated .input-group>.form-select:not(:focus):valid', ('Unknown pseudo-class', 'valid')
+2025-03-20 20:19:20,702 - WARNING - Invalid or unsupported selector '.is-invalid~.invalid-feedback,.is-invalid~.invalid-tooltip,.was-validated :invalid~.invalid-feedback,.was-validated :invalid~.invalid-tooltip', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,706 - WARNING - Ignored `padding-right:calc(1.5em + .75rem)` at 5:50206, invalid value.
+2025-03-20 20:19:20,706 - WARNING - Ignored `background-position:right calc(.375em + .1875rem) center` at 5:50601, invalid value.
+2025-03-20 20:19:20,706 - WARNING - Ignored `background-size:calc(.75em + .375rem) calc(.75em + .375rem)` at 5:50658, invalid value.
+2025-03-20 20:19:20,707 - WARNING - Invalid or unsupported selector '.form-control.is-invalid,.was-validated .form-control:invalid', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,707 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-danger-rgb),.25)` at 5:50841, unknown property.
+2025-03-20 20:19:20,708 - WARNING - Invalid or unsupported selector '.form-control.is-invalid:focus,.was-validated .form-control:invalid:focus', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,708 - WARNING - Ignored `padding-right:calc(1.5em + .75rem)` at 5:50974, invalid value.
+2025-03-20 20:19:20,709 - WARNING - Ignored `background-position:top calc(.375em + .1875rem) right calc(.375em + .1875rem)` at 5:51009, invalid value.
+2025-03-20 20:19:20,712 - WARNING - Invalid or unsupported selector '.form-select.is-invalid,.was-validated .form-select:invalid', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,713 - WARNING - Ignored `background-size:16px 12px,calc(.75em + .375rem) calc(.75em + .375rem)` at 5:51848, invalid value.
+2025-03-20 20:19:20,714 - WARNING - Invalid or unsupported selector '.form-select.is-invalid:not([multiple]):not([size]),.form-select.is-invalid:not([multiple])[size="1"],.was-validated .form-select:invalid:not([multiple]):not([size]),.was-validated .form-select:invalid:not([multiple])[size="1"]', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,714 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-danger-rgb),.25)` at 5:52039, unknown property.
+2025-03-20 20:19:20,715 - WARNING - Invalid or unsupported selector '.form-select.is-invalid:focus,.was-validated .form-select:invalid:focus', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,715 - WARNING - Ignored `width:calc(3rem + calc(1.5em + .75rem))` at 5:52168, invalid value.
+2025-03-20 20:19:20,716 - WARNING - Invalid or unsupported selector '.form-check-input.is-invalid,.was-validated .form-check-input:invalid', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,717 - WARNING - Invalid or unsupported selector '.form-check-input.is-invalid:checked,.was-validated .form-check-input:invalid:checked', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,717 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(var(--bs-danger-rgb),.25)` at 5:52541, unknown property.
+2025-03-20 20:19:20,718 - WARNING - Invalid or unsupported selector '.form-check-input.is-invalid~.form-check-label,.was-validated .form-check-input:invalid~.form-check-label', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,720 - WARNING - Invalid or unsupported selector '.input-group>.form-control:not(:focus).is-invalid,.input-group>.form-floating:not(:focus-within).is-invalid,.input-group>.form-select:not(:focus).is-invalid,.was-validated .input-group>.form-control:not(:focus):invalid,.was-validated .input-group>.form-floating:not(:focus-within):invalid,.was-validated .input-group>.form-select:not(:focus):invalid', ('Unknown pseudo-class', 'invalid')
+2025-03-20 20:19:20,721 - WARNING - Ignored `user-select:none` at 5:54129, unknown property.
+2025-03-20 20:19:20,721 - WARNING - Ignored `border:var(--bs-btn-border-width) solid var(--bs-btn-border-color)` at 5:54146, invalid value.
+2025-03-20 20:19:20,722 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,722 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:54415.
+2025-03-20 20:19:20,723 - WARNING - Ignored `box-shadow:var(--bs-btn-focus-box-shadow)` at 5:54874, unknown property.
+2025-03-20 20:19:20,724 - WARNING - Ignored `box-shadow:var(--bs-btn-focus-box-shadow)` at 5:55002, unknown property.
+2025-03-20 20:19:20,725 - WARNING - Ignored `box-shadow:var(--bs-btn-focus-box-shadow)` at 5:55433, unknown property.
+2025-03-20 20:19:20,726 - WARNING - Ignored `pointer-events:none` at 5:55561, unknown property.
+2025-03-20 20:19:20,733 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,733 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:64048.
+2025-03-20 20:19:20,734 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,735 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:64236.
+2025-03-20 20:19:20,735 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,735 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:64383.
+2025-03-20 20:19:20,739 - WARNING - Ignored `border:var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color)` at 5:66327, invalid value.
+2025-03-20 20:19:20,741 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,741 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:66721.
+2025-03-20 20:19:20,741 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,741 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:66945.
+2025-03-20 20:19:20,742 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,742 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:67169.
+2025-03-20 20:19:20,742 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,743 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:67393.
+2025-03-20 20:19:20,743 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,743 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:67618.
+2025-03-20 20:19:20,748 - WARNING - Ignored `border-top:1px solid var(--bs-dropdown-divider-bg)` at 5:69340, invalid value.
+2025-03-20 20:19:20,750 - WARNING - Ignored `pointer-events:none` at 5:70117, unknown property.
+2025-03-20 20:19:20,756 - WARNING - Ignored `margin-left:calc(var(--bs-border-width) * -1)` at 5:71827, invalid value.
+2025-03-20 20:19:20,761 - WARNING - Ignored `margin-top:calc(var(--bs-border-width) * -1)` at 5:72962, invalid value.
+2025-03-20 20:19:20,764 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,764 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:73979.
+2025-03-20 20:19:20,765 - WARNING - Ignored `box-shadow:0 0 0 .25rem rgba(13,110,253,.25)` at 5:74148, unknown property.
+2025-03-20 20:19:20,765 - WARNING - Ignored `pointer-events:none` at 5:74252, unknown property.
+2025-03-20 20:19:20,766 - WARNING - Ignored `border-bottom:var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color)` at 5:74763, invalid value.
+2025-03-20 20:19:20,767 - WARNING - Ignored `margin-bottom:calc(-1 * var(--bs-nav-tabs-border-width))` at 5:74867, invalid value.
+2025-03-20 20:19:20,767 - WARNING - Ignored `border:var(--bs-nav-tabs-border-width) solid transparent` at 5:74924, invalid value.
+2025-03-20 20:19:20,768 - WARNING - Ignored `isolation:isolate` at 5:75146, unknown property.
+2025-03-20 20:19:20,770 - WARNING - Ignored `margin-top:calc(-1 * var(--bs-nav-tabs-border-width))` at 5:75610, invalid value.
+2025-03-20 20:19:20,772 - WARNING - Ignored `gap:var(--bs-nav-underline-gap)` at 5:76345, unknown property.
+2025-03-20 20:19:20,773 - WARNING - Ignored `border-bottom:var(--bs-nav-underline-border-width) solid transparent` at 5:76433, invalid value.
+2025-03-20 20:19:20,781 - WARNING - Ignored `border:var(--bs-border-width) solid var(--bs-navbar-toggler-border-color)` at 5:79939, invalid value.
+2025-03-20 20:19:20,781 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,782 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:80113.
+2025-03-20 20:19:20,782 - WARNING - Ignored `box-shadow:0 0 0 var(--bs-navbar-toggler-focus-width)` at 5:80281, unknown property.
+2025-03-20 20:19:20,783 - WARNING - Ignored `overflow-y:auto` at 5:80609, unknown property.
+2025-03-20 20:19:20,783 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,784 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:80625.
+2025-03-20 20:19:20,784 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,784 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:81539.
+2025-03-20 20:19:20,785 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,785 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:82453.
+2025-03-20 20:19:20,785 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,786 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:83367.
+2025-03-20 20:19:20,786 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,786 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:84282.
+2025-03-20 20:19:20,789 - WARNING - Ignored `overflow-y:visible` at 5:86046, unknown property.
+2025-03-20 20:19:20,791 - WARNING - Ignored `border:var(--bs-card-border-width) solid var(--bs-card-border-color)` at 5:87860, invalid value.
+2025-03-20 20:19:20,794 - WARNING - Ignored `margin-top:calc(-.5 * var(--bs-card-title-spacer-y))` at 5:88696, invalid value.
+2025-03-20 20:19:20,795 - WARNING - Ignored `border-bottom:var(--bs-card-border-width) solid var(--bs-card-border-color)` at 5:89062, invalid value.
+2025-03-20 20:19:20,796 - WARNING - Ignored `border-top:var(--bs-card-border-width) solid var(--bs-card-border-color)` at 5:89400, invalid value.
+2025-03-20 20:19:20,797 - WARNING - Ignored `margin-right:calc(-.5 * var(--bs-card-cap-padding-x))` at 5:89603, invalid value.
+2025-03-20 20:19:20,797 - WARNING - Ignored `margin-bottom:calc(-1 * var(--bs-card-cap-padding-y))` at 5:89657, invalid value.
+2025-03-20 20:19:20,798 - WARNING - Ignored `margin-left:calc(-.5 * var(--bs-card-cap-padding-x))` at 5:89711, invalid value.
+2025-03-20 20:19:20,798 - WARNING - Ignored `margin-right:calc(-.5 * var(--bs-card-cap-padding-x))` at 5:89907, invalid value.
+2025-03-20 20:19:20,799 - WARNING - Ignored `margin-left:calc(-.5 * var(--bs-card-cap-padding-x))` at 5:89961, invalid value.
+2025-03-20 20:19:20,800 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,801 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:90575.
+2025-03-20 20:19:20,802 - WARNING - Ignored `overflow-anchor:none` at 5:93443, unknown property.
+2025-03-20 20:19:20,802 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,803 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:93506.
+2025-03-20 20:19:20,803 - WARNING - Ignored `box-shadow:inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)` at 5:93700, unknown property.
+2025-03-20 20:19:20,804 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,805 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:94267.
+2025-03-20 20:19:20,805 - WARNING - Ignored `box-shadow:var(--bs-accordion-btn-focus-box-shadow)` at 5:94482, unknown property.
+2025-03-20 20:19:20,806 - WARNING - Ignored `border:var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)` at 5:94656, invalid value.
+2025-03-20 20:19:20,813 - WARNING - Ignored `border:var(--bs-pagination-border-width) solid var(--bs-pagination-border-color)` at 5:98930, invalid value.
+2025-03-20 20:19:20,813 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,813 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:99137.
+2025-03-20 20:19:20,814 - WARNING - Ignored `box-shadow:var(--bs-pagination-focus-box-shadow)` at 5:99493, unknown property.
+2025-03-20 20:19:20,815 - WARNING - Ignored `pointer-events:none` at 5:99814, unknown property.
+2025-03-20 20:19:20,816 - WARNING - Ignored `margin-left:calc(var(--bs-border-width) * -1)` at 5:99980, invalid value.
+2025-03-20 20:19:20,818 - WARNING - Ignored `border:var(--bs-alert-border)` at 5:101755, invalid value.
+2025-03-20 20:19:20,822 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,822 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:104574.
+2025-03-20 20:19:20,823 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,824 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:105083.
+2025-03-20 20:19:20,826 - WARNING - Ignored `border:var(--bs-list-group-border-width) solid var(--bs-list-group-border-color)` at 5:106911, invalid value.
+2025-03-20 20:19:20,827 - WARNING - Ignored `pointer-events:none` at 5:107275, unknown property.
+2025-03-20 20:19:20,828 - WARNING - Ignored `margin-top:calc(-1 * var(--bs-list-group-border-width))` at 5:107615, invalid value.
+2025-03-20 20:19:20,831 - WARNING - Ignored `margin-left:calc(-1 * var(--bs-list-group-border-width))` at 5:108328, invalid value.
+2025-03-20 20:19:20,831 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,832 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:108437.
+2025-03-20 20:19:20,832 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,832 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:109196.
+2025-03-20 20:19:20,833 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,833 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:109955.
+2025-03-20 20:19:20,833 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,834 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:110714.
+2025-03-20 20:19:20,834 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,834 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:111474.
+2025-03-20 20:19:20,838 - WARNING - Ignored `background:transparent var(--bs-btn-close-bg) center/1em auto no-repeat` at 5:118065, invalid value.
+2025-03-20 20:19:20,839 - WARNING - Ignored `box-shadow:var(--bs-btn-close-focus-shadow)` at 5:118343, unknown property.
+2025-03-20 20:19:20,839 - WARNING - Ignored `pointer-events:none` at 5:118469, unknown property.
+2025-03-20 20:19:20,839 - WARNING - Ignored `user-select:none` at 5:118536, unknown property.
+2025-03-20 20:19:20,840 - WARNING - Ignored `filter:var(--bs-btn-close-white-filter)` at 5:118615, unknown property.
+2025-03-20 20:19:20,841 - WARNING - Ignored `filter:var(--bs-btn-close-white-filter)` at 5:118687, unknown property.
+2025-03-20 20:19:20,841 - WARNING - Ignored `pointer-events:auto` at 5:119444, unknown property.
+2025-03-20 20:19:20,842 - WARNING - Ignored `border:var(--bs-toast-border-width) solid var(--bs-toast-border-color)` at 5:119528, invalid value.
+2025-03-20 20:19:20,842 - WARNING - Ignored `box-shadow:var(--bs-toast-box-shadow)` at 5:119599, unknown property.
+2025-03-20 20:19:20,843 - WARNING - Ignored `width:-webkit-max-content` at 5:119826, invalid value.
+2025-03-20 20:19:20,844 - WARNING - Ignored `width:-moz-max-content` at 5:119852, invalid value.
+2025-03-20 20:19:20,844 - WARNING - Ignored `width:max-content` at 5:119875, invalid value.
+2025-03-20 20:19:20,844 - WARNING - Ignored `pointer-events:none` at 5:119908, unknown property.
+2025-03-20 20:19:20,845 - WARNING - Ignored `border-bottom:var(--bs-toast-border-width) solid var(--bs-toast-header-border-color)` at 5:120213, invalid value.
+2025-03-20 20:19:20,846 - WARNING - Ignored `border-top-left-radius:calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width))` at 5:120298, invalid value.
+2025-03-20 20:19:20,846 - WARNING - Ignored `border-top-right-radius:calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width))` at 5:120388, invalid value.
+2025-03-20 20:19:20,847 - WARNING - Ignored `margin-right:calc(-.5 * var(--bs-toast-padding-x))` at 5:120504, invalid value.
+2025-03-20 20:19:20,848 - WARNING - Ignored `overflow-x:hidden` at 5:121622, unknown property.
+2025-03-20 20:19:20,848 - WARNING - Ignored `overflow-y:auto` at 5:121640, unknown property.
+2025-03-20 20:19:20,849 - WARNING - Ignored `pointer-events:none` at 5:121739, unknown property.
+2025-03-20 20:19:20,850 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,850 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:121848.
+2025-03-20 20:19:20,851 - WARNING - Ignored `height:calc(100% - var(--bs-modal-margin) * 2)` at 5:122052, invalid value.
+2025-03-20 20:19:20,851 - WARNING - Ignored `overflow-y:auto` at 5:122208, unknown property.
+2025-03-20 20:19:20,852 - WARNING - Ignored `min-height:calc(100% - var(--bs-modal-margin) * 2)` at 5:122279, invalid value.
+2025-03-20 20:19:20,852 - WARNING - Ignored `pointer-events:auto` at 5:122437, unknown property.
+2025-03-20 20:19:20,853 - WARNING - Ignored `border:var(--bs-modal-border-width) solid var(--bs-modal-border-color)` at 5:122521, invalid value.
+2025-03-20 20:19:20,854 - WARNING - Ignored `width:100vw` at 5:122798, invalid value.
+2025-03-20 20:19:20,854 - WARNING - Ignored `height:100vh` at 5:122810, invalid value.
+2025-03-20 20:19:20,855 - WARNING - Ignored `border-bottom:var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color)` at 5:123078, invalid value.
+2025-03-20 20:19:20,856 - WARNING - Ignored `padding:calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5)` at 5:123314, invalid value.
+2025-03-20 20:19:20,856 - WARNING - Ignored `margin:calc(-.5 * var(--bs-modal-header-padding-y)) calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y)) auto` at 5:123410, invalid value.
+2025-03-20 20:19:20,857 - WARNING - Ignored `padding:calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5)` at 5:123808, invalid value.
+2025-03-20 20:19:20,857 - WARNING - Ignored `border-top:var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color)` at 5:123923, invalid value.
+2025-03-20 20:19:20,858 - WARNING - Ignored `margin:calc(var(--bs-modal-footer-gap) * .5)` at 5:124153, invalid value.
+2025-03-20 20:19:20,858 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,859 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:124198.
+2025-03-20 20:19:20,859 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,859 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:124427.
+2025-03-20 20:19:20,859 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,860 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:124496.
+2025-03-20 20:19:20,860 - WARNING - Ignored `width:100vw` at 5:124575, invalid value.
+2025-03-20 20:19:20,862 - WARNING - Ignored `overflow-y:auto` at 5:124803, unknown property.
+2025-03-20 20:19:20,862 - WARNING - Expected a media type, got '(max-width:575.98px)'
+2025-03-20 20:19:20,863 - WARNING - Invalid media type ' (max-width:575.98px)' the whole @media rule was ignored at 5:124819.
+2025-03-20 20:19:20,863 - WARNING - Expected a media type, got '(max-width:767.98px)'
+2025-03-20 20:19:20,863 - WARNING - Invalid media type ' (max-width:767.98px)' the whole @media rule was ignored at 5:125150.
+2025-03-20 20:19:20,864 - WARNING - Expected a media type, got '(max-width:991.98px)'
+2025-03-20 20:19:20,864 - WARNING - Invalid media type ' (max-width:991.98px)' the whole @media rule was ignored at 5:125481.
+2025-03-20 20:19:20,864 - WARNING - Expected a media type, got '(max-width:1199.98px)'
+2025-03-20 20:19:20,865 - WARNING - Invalid media type ' (max-width:1199.98px)' the whole @media rule was ignored at 5:125812.
+2025-03-20 20:19:20,865 - WARNING - Expected a media type, got '(max-width:1399.98px)'
+2025-03-20 20:19:20,865 - WARNING - Invalid media type ' (max-width:1399.98px)' the whole @media rule was ignored at 5:126144.
+2025-03-20 20:19:20,866 - WARNING - Ignored `text-shadow:none` at 5:127099, unknown property.
+2025-03-20 20:19:20,867 - WARNING - Ignored `line-break:auto` at 5:127215, unknown property.
+2025-03-20 20:19:20,868 - WARNING - Ignored `bottom:calc(-1 * var(--bs-tooltip-arrow-height))` at 5:127656, invalid value.
+2025-03-20 20:19:20,869 - WARNING - Ignored `border-width:var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * .5) 0` at 5:127821, invalid value.
+2025-03-20 20:19:20,870 - WARNING - Ignored `left:calc(-1 * var(--bs-tooltip-arrow-height))` at 5:128039, invalid value.
+2025-03-20 20:19:20,871 - WARNING - Ignored `border-width:calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * .5) 0` at 5:128280, invalid value.
+2025-03-20 20:19:20,871 - WARNING - Ignored `top:calc(-1 * var(--bs-tooltip-arrow-height))` at 5:128545, invalid value.
+2025-03-20 20:19:20,872 - WARNING - Ignored `border-width:0 calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height)` at 5:128716, invalid value.
+2025-03-20 20:19:20,873 - WARNING - Ignored `right:calc(-1 * var(--bs-tooltip-arrow-height))` at 5:128938, invalid value.
+2025-03-20 20:19:20,874 - WARNING - Ignored `border-width:calc(var(--bs-tooltip-arrow-width) * .5) 0 calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height)` at 5:129180, invalid value.
+2025-03-20 20:19:20,876 - WARNING - Ignored `text-shadow:none` at 5:130683, unknown property.
+2025-03-20 20:19:20,876 - WARNING - Ignored `line-break:auto` at 5:130799, unknown property.
+2025-03-20 20:19:20,877 - WARNING - Ignored `border:var(--bs-popover-border-width) solid var(--bs-popover-border-color)` at 5:130940, invalid value.
+2025-03-20 20:19:20,878 - WARNING - Ignored `bottom:calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width))` at 5:131429, invalid value.
+2025-03-20 20:19:20,879 - WARNING - Ignored `border-width:var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * .5) 0` at 5:131725, invalid value.
+2025-03-20 20:19:20,881 - WARNING - Ignored `left:calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width))` at 5:132250, invalid value.
+2025-03-20 20:19:20,882 - WARNING - Ignored `border-width:calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * .5) 0` at 5:132622, invalid value.
+2025-03-20 20:19:20,883 - WARNING - Ignored `top:calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width))` at 5:133196, invalid value.
+2025-03-20 20:19:20,884 - WARNING - Ignored `border-width:0 calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height)` at 5:133501, invalid value.
+2025-03-20 20:19:20,885 - WARNING - Ignored `margin-left:calc(-.5 * var(--bs-popover-arrow-width))` at 5:134143, invalid value.
+2025-03-20 20:19:20,886 - WARNING - Ignored `border-bottom:var(--bs-popover-border-width) solid var(--bs-popover-header-bg)` at 5:134208, invalid value.
+2025-03-20 20:19:20,887 - WARNING - Ignored `right:calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width))` at 5:134381, invalid value.
+2025-03-20 20:19:20,888 - WARNING - Ignored `border-width:calc(var(--bs-popover-arrow-width) * .5) 0 calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height)` at 5:134756, invalid value.
+2025-03-20 20:19:20,890 - WARNING - Ignored `border-bottom:var(--bs-popover-border-width) solid var(--bs-popover-border-color)` at 5:135472, invalid value.
+2025-03-20 20:19:20,891 - WARNING - Ignored `touch-action:pan-y` at 5:135887, unknown property.
+2025-03-20 20:19:20,892 - WARNING - Ignored `backface-visibility:hidden` at 5:136148, unknown property.
+2025-03-20 20:19:20,892 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,893 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:136212.
+2025-03-20 20:19:20,896 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,896 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:136936.
+2025-03-20 20:19:20,898 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,898 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:137333.
+2025-03-20 20:19:20,901 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,902 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:138944.
+2025-03-20 20:19:20,903 - WARNING - Ignored `filter:invert(1) grayscale(100)` at 5:139305, unknown property.
+2025-03-20 20:19:20,904 - WARNING - Ignored `filter:invert(1) grayscale(100)` at 5:139690, unknown property.
+2025-03-20 20:19:20,906 - WARNING - Ignored `border:var(--bs-spinner-border-width) solid currentcolor` at 5:140529, invalid value.
+2025-03-20 20:19:20,907 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,908 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:141075.
+2025-03-20 20:19:20,909 - WARNING - Expected a media type, got '(max-width:575.98px)'
+2025-03-20 20:19:20,909 - WARNING - Invalid media type ' (max-width:575.98px)' the whole @media rule was ignored at 5:141750.
+2025-03-20 20:19:20,909 - WARNING - Expected a media type, got '(max-width:575.98px)and/**/(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,910 - WARNING - Invalid media type ' (max-width:575.98px) and (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:142072.
+2025-03-20 20:19:20,910 - WARNING - Expected a media type, got '(max-width:575.98px)'
+2025-03-20 20:19:20,910 - WARNING - Invalid media type ' (max-width:575.98px)' the whole @media rule was ignored at 5:142167.
+2025-03-20 20:19:20,911 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,911 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:143138.
+2025-03-20 20:19:20,911 - WARNING - Expected a media type, got '(max-width:767.98px)'
+2025-03-20 20:19:20,912 - WARNING - Invalid media type ' (max-width:767.98px)' the whole @media rule was ignored at 5:143442.
+2025-03-20 20:19:20,912 - WARNING - Expected a media type, got '(max-width:767.98px)and/**/(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,912 - WARNING - Invalid media type ' (max-width:767.98px) and (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:143764.
+2025-03-20 20:19:20,913 - WARNING - Expected a media type, got '(max-width:767.98px)'
+2025-03-20 20:19:20,913 - WARNING - Invalid media type ' (max-width:767.98px)' the whole @media rule was ignored at 5:143859.
+2025-03-20 20:19:20,913 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,914 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:144830.
+2025-03-20 20:19:20,914 - WARNING - Expected a media type, got '(max-width:991.98px)'
+2025-03-20 20:19:20,914 - WARNING - Invalid media type ' (max-width:991.98px)' the whole @media rule was ignored at 5:145134.
+2025-03-20 20:19:20,915 - WARNING - Expected a media type, got '(max-width:991.98px)and/**/(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,915 - WARNING - Invalid media type ' (max-width:991.98px) and (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:145456.
+2025-03-20 20:19:20,915 - WARNING - Expected a media type, got '(max-width:991.98px)'
+2025-03-20 20:19:20,916 - WARNING - Invalid media type ' (max-width:991.98px)' the whole @media rule was ignored at 5:145551.
+2025-03-20 20:19:20,916 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,916 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:146522.
+2025-03-20 20:19:20,916 - WARNING - Expected a media type, got '(max-width:1199.98px)'
+2025-03-20 20:19:20,917 - WARNING - Invalid media type ' (max-width:1199.98px)' the whole @media rule was ignored at 5:146826.
+2025-03-20 20:19:20,917 - WARNING - Expected a media type, got '(max-width:1199.98px)and/**/(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,917 - WARNING - Invalid media type ' (max-width:1199.98px) and (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:147149.
+2025-03-20 20:19:20,918 - WARNING - Expected a media type, got '(max-width:1199.98px)'
+2025-03-20 20:19:20,918 - WARNING - Invalid media type ' (max-width:1199.98px)' the whole @media rule was ignored at 5:147245.
+2025-03-20 20:19:20,918 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,919 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:148217.
+2025-03-20 20:19:20,919 - WARNING - Expected a media type, got '(max-width:1399.98px)'
+2025-03-20 20:19:20,919 - WARNING - Invalid media type ' (max-width:1399.98px)' the whole @media rule was ignored at 5:148522.
+2025-03-20 20:19:20,920 - WARNING - Expected a media type, got '(max-width:1399.98px)and/**/(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,920 - WARNING - Invalid media type ' (max-width:1399.98px) and (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:148846.
+2025-03-20 20:19:20,920 - WARNING - Expected a media type, got '(max-width:1399.98px)'
+2025-03-20 20:19:20,921 - WARNING - Invalid media type ' (max-width:1399.98px)' the whole @media rule was ignored at 5:148943.
+2025-03-20 20:19:20,921 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,921 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:149924.
+2025-03-20 20:19:20,922 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,922 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:150522.
+2025-03-20 20:19:20,923 - WARNING - Ignored `border-right:var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color)` at 5:150661, invalid value.
+2025-03-20 20:19:20,924 - WARNING - Ignored `border-left:var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color)` at 5:150845, invalid value.
+2025-03-20 20:19:20,924 - WARNING - Ignored `border-bottom:var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color)` at 5:151052, invalid value.
+2025-03-20 20:19:20,925 - WARNING - Ignored `border-top:var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color)` at 5:151259, invalid value.
+2025-03-20 20:19:20,929 - WARNING - Ignored `width:100vw` at 5:151565, invalid value.
+2025-03-20 20:19:20,930 - WARNING - Ignored `height:100vh` at 5:151577, invalid value.
+2025-03-20 20:19:20,931 - WARNING - Ignored `padding:calc(var(--bs-offcanvas-padding-y) * .5) calc(var(--bs-offcanvas-padding-x) * .5)` at 5:151860, invalid value.
+2025-03-20 20:19:20,931 - WARNING - Ignored `margin-top:calc(-.5 * var(--bs-offcanvas-padding-y))` at 5:151950, invalid value.
+2025-03-20 20:19:20,932 - WARNING - Ignored `margin-right:calc(-.5 * var(--bs-offcanvas-padding-x))` at 5:152003, invalid value.
+2025-03-20 20:19:20,932 - WARNING - Ignored `margin-bottom:calc(-.5 * var(--bs-offcanvas-padding-y))` at 5:152058, invalid value.
+2025-03-20 20:19:20,933 - WARNING - Ignored `overflow-y:auto` at 5:152293, unknown property.
+2025-03-20 20:19:20,934 - WARNING - Ignored `mask-image:linear-gradient(130deg,#000 55%,rgba(0,0,0,0.8) 75%,#000 95%)` at 5:152812, unknown property.
+2025-03-20 20:19:20,935 - WARNING - Ignored `mask-size:200% 100%` at 5:152913, unknown property.
+2025-03-20 20:19:20,935 - WARNING - Ignored `background-color:RGBA(13,110,253,var(--bs-bg-opacity,1))` at 5:153158, invalid value.
+2025-03-20 20:19:20,936 - WARNING - Ignored `background-color:RGBA(108,117,125,var(--bs-bg-opacity,1))` at 5:153265, invalid value.
+2025-03-20 20:19:20,937 - WARNING - Ignored `background-color:RGBA(25,135,84,var(--bs-bg-opacity,1))` at 5:153371, invalid value.
+2025-03-20 20:19:20,937 - WARNING - Ignored `background-color:RGBA(13,202,240,var(--bs-bg-opacity,1))` at 5:153472, invalid value.
+2025-03-20 20:19:20,938 - WARNING - Ignored `background-color:RGBA(255,193,7,var(--bs-bg-opacity,1))` at 5:153577, invalid value.
+2025-03-20 20:19:20,939 - WARNING - Ignored `background-color:RGBA(220,53,69,var(--bs-bg-opacity,1))` at 5:153680, invalid value.
+2025-03-20 20:19:20,939 - WARNING - Ignored `background-color:RGBA(248,249,250,var(--bs-bg-opacity,1))` at 5:153782, invalid value.
+2025-03-20 20:19:20,940 - WARNING - Ignored `background-color:RGBA(33,37,41,var(--bs-bg-opacity,1))` at 5:153885, invalid value.
+2025-03-20 20:19:20,943 - WARNING - Ignored `color:RGBA(var(--bs-primary-rgb),var(--bs-link-opacity,1))` at 5:153964, invalid value.
+2025-03-20 20:19:20,943 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-primary-rgb),var(--bs-link-underline-opacity,1))` at 5:154136, invalid value.
+2025-03-20 20:19:20,944 - WARNING - Ignored `color:RGBA(10,88,202,var(--bs-link-opacity,1))` at 5:154271, invalid value.
+2025-03-20 20:19:20,944 - WARNING - Ignored `text-decoration-color:RGBA(10,88,202,var(--bs-link-underline-opacity,1))` at 5:154419, invalid value.
+2025-03-20 20:19:20,944 - WARNING - Ignored `color:RGBA(var(--bs-secondary-rgb),var(--bs-link-opacity,1))` at 5:154518, invalid value.
+2025-03-20 20:19:20,945 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-secondary-rgb),var(--bs-link-underline-opacity,1))` at 5:154694, invalid value.
+2025-03-20 20:19:20,945 - WARNING - Ignored `color:RGBA(86,94,100,var(--bs-link-opacity,1))` at 5:154835, invalid value.
+2025-03-20 20:19:20,946 - WARNING - Ignored `text-decoration-color:RGBA(86,94,100,var(--bs-link-underline-opacity,1))` at 5:154983, invalid value.
+2025-03-20 20:19:20,946 - WARNING - Ignored `color:RGBA(var(--bs-success-rgb),var(--bs-link-opacity,1))` at 5:155080, invalid value.
+2025-03-20 20:19:20,947 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-success-rgb),var(--bs-link-underline-opacity,1))` at 5:155252, invalid value.
+2025-03-20 20:19:20,947 - WARNING - Ignored `color:RGBA(20,108,67,var(--bs-link-opacity,1))` at 5:155387, invalid value.
+2025-03-20 20:19:20,947 - WARNING - Ignored `text-decoration-color:RGBA(20,108,67,var(--bs-link-underline-opacity,1))` at 5:155535, invalid value.
+2025-03-20 20:19:20,948 - WARNING - Ignored `color:RGBA(var(--bs-info-rgb),var(--bs-link-opacity,1))` at 5:155629, invalid value.
+2025-03-20 20:19:20,948 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-info-rgb),var(--bs-link-underline-opacity,1))` at 5:155795, invalid value.
+2025-03-20 20:19:20,949 - WARNING - Ignored `color:RGBA(61,213,243,var(--bs-link-opacity,1))` at 5:155921, invalid value.
+2025-03-20 20:19:20,949 - WARNING - Ignored `text-decoration-color:RGBA(61,213,243,var(--bs-link-underline-opacity,1))` at 5:156071, invalid value.
+2025-03-20 20:19:20,950 - WARNING - Ignored `color:RGBA(var(--bs-warning-rgb),var(--bs-link-opacity,1))` at 5:156169, invalid value.
+2025-03-20 20:19:20,950 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-warning-rgb),var(--bs-link-underline-opacity,1))` at 5:156341, invalid value.
+2025-03-20 20:19:20,950 - WARNING - Ignored `color:RGBA(255,205,57,var(--bs-link-opacity,1))` at 5:156476, invalid value.
+2025-03-20 20:19:20,951 - WARNING - Ignored `text-decoration-color:RGBA(255,205,57,var(--bs-link-underline-opacity,1))` at 5:156626, invalid value.
+2025-03-20 20:19:20,951 - WARNING - Ignored `color:RGBA(var(--bs-danger-rgb),var(--bs-link-opacity,1))` at 5:156723, invalid value.
+2025-03-20 20:19:20,952 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-danger-rgb),var(--bs-link-underline-opacity,1))` at 5:156893, invalid value.
+2025-03-20 20:19:20,952 - WARNING - Ignored `color:RGBA(176,42,55,var(--bs-link-opacity,1))` at 5:157025, invalid value.
+2025-03-20 20:19:20,952 - WARNING - Ignored `text-decoration-color:RGBA(176,42,55,var(--bs-link-underline-opacity,1))` at 5:157173, invalid value.
+2025-03-20 20:19:20,953 - WARNING - Ignored `color:RGBA(var(--bs-light-rgb),var(--bs-link-opacity,1))` at 5:157268, invalid value.
+2025-03-20 20:19:20,953 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-light-rgb),var(--bs-link-underline-opacity,1))` at 5:157436, invalid value.
+2025-03-20 20:19:20,954 - WARNING - Ignored `color:RGBA(249,250,251,var(--bs-link-opacity,1))` at 5:157565, invalid value.
+2025-03-20 20:19:20,954 - WARNING - Ignored `text-decoration-color:RGBA(249,250,251,var(--bs-link-underline-opacity,1))` at 5:157717, invalid value.
+2025-03-20 20:19:20,954 - WARNING - Ignored `color:RGBA(var(--bs-dark-rgb),var(--bs-link-opacity,1))` at 5:157813, invalid value.
+2025-03-20 20:19:20,955 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-dark-rgb),var(--bs-link-underline-opacity,1))` at 5:157979, invalid value.
+2025-03-20 20:19:20,955 - WARNING - Ignored `color:RGBA(26,30,33,var(--bs-link-opacity,1))` at 5:158105, invalid value.
+2025-03-20 20:19:20,956 - WARNING - Ignored `text-decoration-color:RGBA(26,30,33,var(--bs-link-underline-opacity,1))` at 5:158251, invalid value.
+2025-03-20 20:19:20,956 - WARNING - Ignored `color:RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,1))` at 5:158353, invalid value.
+2025-03-20 20:19:20,957 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-underline-opacity,1))` at 5:158539, invalid value.
+2025-03-20 20:19:20,957 - WARNING - Ignored `color:RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,.75))` at 5:158693, invalid value.
+2025-03-20 20:19:20,957 - WARNING - Ignored `text-decoration-color:RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-underline-opacity,0.75))` at 5:158884, invalid value.
+2025-03-20 20:19:20,958 - WARNING - Ignored `box-shadow:var(--bs-focus-ring-x,0) var(--bs-focus-ring-y,0) var(--bs-focus-ring-blur,0) var(--bs-focus-ring-width) var(--bs-focus-ring-color)` at 5:159017, unknown property.
+2025-03-20 20:19:20,958 - WARNING - Ignored `gap:.375rem` at 5:159191, unknown property.
+2025-03-20 20:19:20,959 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.5))` at 5:159310, invalid value.
+2025-03-20 20:19:20,959 - WARNING - Ignored `text-underline-offset:0.25em` at 5:159390, unknown property.
+2025-03-20 20:19:20,959 - WARNING - Ignored `backface-visibility:hidden` at 5:159454, unknown property.
+2025-03-20 20:19:20,960 - WARNING - Ignored `fill:currentcolor` at 5:159531, unknown property.
+2025-03-20 20:19:20,961 - WARNING - Expected a media type, got '(prefers-reduced-motion:reduce)'
+2025-03-20 20:19:20,961 - WARNING - Invalid media type ' (prefers-reduced-motion:reduce)' the whole @media rule was ignored at 5:159586.
+2025-03-20 20:19:20,963 - WARNING - Ignored `position:-webkit-sticky` at 5:160243, invalid value.
+2025-03-20 20:19:20,964 - WARNING - Ignored `position:sticky` at 5:160267, invalid value.
+2025-03-20 20:19:20,964 - WARNING - Ignored `position:-webkit-sticky` at 5:160317, invalid value.
+2025-03-20 20:19:20,965 - WARNING - Ignored `position:sticky` at 5:160341, invalid value.
+2025-03-20 20:19:20,965 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:20,966 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:160379.
+2025-03-20 20:19:20,966 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:20,966 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:160559.
+2025-03-20 20:19:20,967 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:20,967 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:160739.
+2025-03-20 20:19:20,967 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:20,967 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:160919.
+2025-03-20 20:19:20,968 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:20,968 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:161100.
+2025-03-20 20:19:20,975 - WARNING - Ignored `overflow-x:auto` at 5:163228, unknown property.
+2025-03-20 20:19:20,976 - WARNING - Ignored `overflow-x:hidden` at 5:163273, unknown property.
+2025-03-20 20:19:20,976 - WARNING - Ignored `overflow-x:visible` at 5:163321, unknown property.
+2025-03-20 20:19:20,977 - WARNING - Ignored `overflow-x:scroll` at 5:163369, unknown property.
+2025-03-20 20:19:20,977 - WARNING - Ignored `overflow-y:auto` at 5:163414, unknown property.
+2025-03-20 20:19:20,977 - WARNING - Ignored `overflow-y:hidden` at 5:163459, unknown property.
+2025-03-20 20:19:20,978 - WARNING - Ignored `overflow-y:visible` at 5:163507, unknown property.
+2025-03-20 20:19:20,978 - WARNING - Ignored `overflow-y:scroll` at 5:163555, unknown property.
+2025-03-20 20:19:20,979 - WARNING - Ignored `display:grid` at 5:163706, invalid value.
+2025-03-20 20:19:20,979 - WARNING - Ignored `display:inline-grid` at 5:163744, invalid value.
+2025-03-20 20:19:20,980 - WARNING - Ignored `box-shadow:0 .5rem 1rem rgba(0,0,0,.15)` at 5:164006, unknown property.
+2025-03-20 20:19:20,980 - WARNING - Ignored `box-shadow:0 .125rem .25rem rgba(0,0,0,.075)` at 5:164067, unknown property.
+2025-03-20 20:19:20,981 - WARNING - Ignored `box-shadow:0 1rem 3rem rgba(0,0,0,.175)` at 5:164133, unknown property.
+2025-03-20 20:19:20,981 - WARNING - Ignored `box-shadow:none` at 5:164196, unknown property.
+2025-03-20 20:19:20,983 - WARNING - Ignored `position:-webkit-sticky` at 5:165203, invalid value.
+2025-03-20 20:19:20,983 - WARNING - Ignored `position:sticky` at 5:165237, invalid value.
+2025-03-20 20:19:20,986 - WARNING - Ignored `border:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)` at 5:165785, invalid value.
+2025-03-20 20:19:20,987 - WARNING - Ignored `border-top:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)` at 5:165912, invalid value.
+2025-03-20 20:19:20,987 - WARNING - Ignored `border-right:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)` at 5:166051, invalid value.
+2025-03-20 20:19:20,988 - WARNING - Ignored `border-bottom:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)` at 5:166197, invalid value.
+2025-03-20 20:19:20,988 - WARNING - Ignored `border-left:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)` at 5:166347, invalid value.
+2025-03-20 20:19:20,989 - WARNING - Ignored `border-color:rgba(var(--bs-primary-rgb),var(--bs-border-opacity))` at 5:166516, invalid value.
+2025-03-20 20:19:20,989 - WARNING - Ignored `border-color:rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))` at 5:166632, invalid value.
+2025-03-20 20:19:20,990 - WARNING - Ignored `border-color:rgba(var(--bs-success-rgb),var(--bs-border-opacity))` at 5:166748, invalid value.
+2025-03-20 20:19:20,990 - WARNING - Ignored `border-color:rgba(var(--bs-info-rgb),var(--bs-border-opacity))` at 5:166859, invalid value.
+2025-03-20 20:19:20,991 - WARNING - Ignored `border-color:rgba(var(--bs-warning-rgb),var(--bs-border-opacity))` at 5:166970, invalid value.
+2025-03-20 20:19:20,992 - WARNING - Ignored `border-color:rgba(var(--bs-danger-rgb),var(--bs-border-opacity))` at 5:167083, invalid value.
+2025-03-20 20:19:20,992 - WARNING - Ignored `border-color:rgba(var(--bs-light-rgb),var(--bs-border-opacity))` at 5:167194, invalid value.
+2025-03-20 20:19:20,993 - WARNING - Ignored `border-color:rgba(var(--bs-dark-rgb),var(--bs-border-opacity))` at 5:167303, invalid value.
+2025-03-20 20:19:20,993 - WARNING - Ignored `border-color:rgba(var(--bs-black-rgb),var(--bs-border-opacity))` at 5:167412, invalid value.
+2025-03-20 20:19:20,994 - WARNING - Ignored `border-color:rgba(var(--bs-white-rgb),var(--bs-border-opacity))` at 5:167522, invalid value.
+2025-03-20 20:19:20,998 - WARNING - Ignored `width:100vw` at 5:168783, invalid value.
+2025-03-20 20:19:20,998 - WARNING - Ignored `min-width:100vw` at 5:168817, invalid value.
+2025-03-20 20:19:20,999 - WARNING - Ignored `height:100vh` at 5:169025, invalid value.
+2025-03-20 20:19:21,000 - WARNING - Ignored `min-height:100vh` at 5:169060, invalid value.
+2025-03-20 20:19:21,018 - WARNING - Ignored `gap:0` at 5:174858, unknown property.
+2025-03-20 20:19:21,019 - WARNING - Ignored `gap:.25rem` at 5:174881, unknown property.
+2025-03-20 20:19:21,019 - WARNING - Ignored `gap:.5rem` at 5:174909, unknown property.
+2025-03-20 20:19:21,019 - WARNING - Ignored `gap:1rem` at 5:174936, unknown property.
+2025-03-20 20:19:21,020 - WARNING - Ignored `gap:1.5rem` at 5:174962, unknown property.
+2025-03-20 20:19:21,020 - WARNING - Ignored `gap:3rem` at 5:174990, unknown property.
+2025-03-20 20:19:21,020 - WARNING - Ignored `row-gap:0` at 5:175020, unknown property.
+2025-03-20 20:19:21,021 - WARNING - Ignored `row-gap:.25rem` at 5:175051, unknown property.
+2025-03-20 20:19:21,021 - WARNING - Ignored `row-gap:.5rem` at 5:175087, unknown property.
+2025-03-20 20:19:21,021 - WARNING - Ignored `row-gap:1rem` at 5:175122, unknown property.
+2025-03-20 20:19:21,022 - WARNING - Ignored `row-gap:1.5rem` at 5:175156, unknown property.
+2025-03-20 20:19:21,022 - WARNING - Ignored `row-gap:3rem` at 5:175192, unknown property.
+2025-03-20 20:19:21,024 - WARNING - Ignored `font-size:calc(1.375rem + 1.5vw)` at 5:175716, invalid value.
+2025-03-20 20:19:21,024 - WARNING - Ignored `font-size:calc(1.325rem + .9vw)` at 5:175765, invalid value.
+2025-03-20 20:19:21,024 - WARNING - Ignored `font-size:calc(1.3rem + .6vw)` at 5:175813, invalid value.
+2025-03-20 20:19:21,025 - WARNING - Ignored `font-size:calc(1.275rem + .3vw)` at 5:175859, invalid value.
+2025-03-20 20:19:21,029 - WARNING - Ignored `word-break:break-word` at 5:177023, invalid value.
+2025-03-20 20:19:21,029 - WARNING - Ignored `color:rgba(var(--bs-primary-rgb),var(--bs-text-opacity))` at 5:177089, invalid value.
+2025-03-20 20:19:21,030 - WARNING - Ignored `color:rgba(var(--bs-secondary-rgb),var(--bs-text-opacity))` at 5:177192, invalid value.
+2025-03-20 20:19:21,030 - WARNING - Ignored `color:rgba(var(--bs-success-rgb),var(--bs-text-opacity))` at 5:177295, invalid value.
+2025-03-20 20:19:21,031 - WARNING - Ignored `color:rgba(var(--bs-info-rgb),var(--bs-text-opacity))` at 5:177393, invalid value.
+2025-03-20 20:19:21,031 - WARNING - Ignored `color:rgba(var(--bs-warning-rgb),var(--bs-text-opacity))` at 5:177491, invalid value.
+2025-03-20 20:19:21,032 - WARNING - Ignored `color:rgba(var(--bs-danger-rgb),var(--bs-text-opacity))` at 5:177591, invalid value.
+2025-03-20 20:19:21,032 - WARNING - Ignored `color:rgba(var(--bs-light-rgb),var(--bs-text-opacity))` at 5:177689, invalid value.
+2025-03-20 20:19:21,033 - WARNING - Ignored `color:rgba(var(--bs-dark-rgb),var(--bs-text-opacity))` at 5:177785, invalid value.
+2025-03-20 20:19:21,033 - WARNING - Ignored `color:rgba(var(--bs-black-rgb),var(--bs-text-opacity))` at 5:177881, invalid value.
+2025-03-20 20:19:21,034 - WARNING - Ignored `color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))` at 5:177978, invalid value.
+2025-03-20 20:19:21,034 - WARNING - Ignored `color:rgba(var(--bs-body-color-rgb),var(--bs-text-opacity))` at 5:178074, invalid value.
+2025-03-20 20:19:21,039 - WARNING - Ignored `text-underline-offset:0.125em` at 5:179835, unknown property.
+2025-03-20 20:19:21,039 - WARNING - Ignored `text-underline-offset:0.125em` at 5:179902, unknown property.
+2025-03-20 20:19:21,040 - WARNING - Ignored `text-underline-offset:0.25em` at 5:179957, unknown property.
+2025-03-20 20:19:21,040 - WARNING - Ignored `text-underline-offset:0.25em` at 5:180023, unknown property.
+2025-03-20 20:19:21,040 - WARNING - Ignored `text-underline-offset:0.375em` at 5:180077, unknown property.
+2025-03-20 20:19:21,041 - WARNING - Ignored `text-underline-offset:0.375em` at 5:180144, unknown property.
+2025-03-20 20:19:21,041 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-primary-rgb),var(--bs-link-underline-opacity))` at 5:180339, invalid value.
+2025-03-20 20:19:21,042 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-secondary-rgb),var(--bs-link-underline-opacity))` at 5:180591, invalid value.
+2025-03-20 20:19:21,042 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-success-rgb),var(--bs-link-underline-opacity))` at 5:180841, invalid value.
+2025-03-20 20:19:21,043 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-info-rgb),var(--bs-link-underline-opacity))` at 5:181083, invalid value.
+2025-03-20 20:19:21,043 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-warning-rgb),var(--bs-link-underline-opacity))` at 5:181328, invalid value.
+2025-03-20 20:19:21,044 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-danger-rgb),var(--bs-link-underline-opacity))` at 5:181574, invalid value.
+2025-03-20 20:19:21,045 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-light-rgb),var(--bs-link-underline-opacity))` at 5:181817, invalid value.
+2025-03-20 20:19:21,045 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-dark-rgb),var(--bs-link-underline-opacity))` at 5:182057, invalid value.
+2025-03-20 20:19:21,046 - WARNING - Ignored `text-decoration-color:rgba(var(--bs-link-color-rgb),var(--bs-link-underline-opacity,1))` at 5:182299, invalid value.
+2025-03-20 20:19:21,048 - WARNING - Ignored `background-color:rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))` at 5:183203, invalid value.
+2025-03-20 20:19:21,048 - WARNING - Ignored `background-color:rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))` at 5:183311, invalid value.
+2025-03-20 20:19:21,049 - WARNING - Ignored `background-color:rgba(var(--bs-success-rgb),var(--bs-bg-opacity))` at 5:183419, invalid value.
+2025-03-20 20:19:21,049 - WARNING - Ignored `background-color:rgba(var(--bs-info-rgb),var(--bs-bg-opacity))` at 5:183522, invalid value.
+2025-03-20 20:19:21,050 - WARNING - Ignored `background-color:rgba(var(--bs-warning-rgb),var(--bs-bg-opacity))` at 5:183625, invalid value.
+2025-03-20 20:19:21,051 - WARNING - Ignored `background-color:rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))` at 5:183730, invalid value.
+2025-03-20 20:19:21,051 - WARNING - Ignored `background-color:rgba(var(--bs-light-rgb),var(--bs-bg-opacity))` at 5:183833, invalid value.
+2025-03-20 20:19:21,052 - WARNING - Ignored `background-color:rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))` at 5:183934, invalid value.
+2025-03-20 20:19:21,052 - WARNING - Ignored `background-color:rgba(var(--bs-black-rgb),var(--bs-bg-opacity))` at 5:184035, invalid value.
+2025-03-20 20:19:21,053 - WARNING - Ignored `background-color:rgba(var(--bs-white-rgb),var(--bs-bg-opacity))` at 5:184137, invalid value.
+2025-03-20 20:19:21,053 - WARNING - Ignored `background-color:rgba(var(--bs-body-bg-rgb),var(--bs-bg-opacity))` at 5:184238, invalid value.
+2025-03-20 20:19:21,054 - WARNING - Ignored `background-color:rgba(var(--bs-secondary-bg-rgb),var(--bs-bg-opacity))` at 5:184424, invalid value.
+2025-03-20 20:19:21,054 - WARNING - Ignored `background-color:rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))` at 5:184541, invalid value.
+2025-03-20 20:19:21,056 - WARNING - Ignored `user-select:all` at 5:185516, unknown property.
+2025-03-20 20:19:21,057 - WARNING - Ignored `user-select:auto` at 5:185627, unknown property.
+2025-03-20 20:19:21,057 - WARNING - Ignored `user-select:none` at 5:185739, unknown property.
+2025-03-20 20:19:21,057 - WARNING - Ignored `pointer-events:none` at 5:185775, unknown property.
+2025-03-20 20:19:21,058 - WARNING - Ignored `pointer-events:auto` at 5:185814, unknown property.
+2025-03-20 20:19:21,067 - WARNING - Expected a media type, got '(min-width:576px)'
+2025-03-20 20:19:21,067 - WARNING - Invalid media type ' (min-width:576px)' the whole @media rule was ignored at 5:191226.
+2025-03-20 20:19:21,068 - WARNING - Expected a media type, got '(min-width:768px)'
+2025-03-20 20:19:21,068 - WARNING - Invalid media type ' (min-width:768px)' the whole @media rule was ignored at 5:199350.
+2025-03-20 20:19:21,068 - WARNING - Expected a media type, got '(min-width:992px)'
+2025-03-20 20:19:21,068 - WARNING - Invalid media type ' (min-width:992px)' the whole @media rule was ignored at 5:207474.
+2025-03-20 20:19:21,069 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:21,069 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:215598.
+2025-03-20 20:19:21,069 - WARNING - Expected a media type, got '(min-width:1400px)'
+2025-03-20 20:19:21,070 - WARNING - Invalid media type ' (min-width:1400px)' the whole @media rule was ignored at 5:223723.
+2025-03-20 20:19:21,070 - WARNING - Expected a media type, got '(min-width:1200px)'
+2025-03-20 20:19:21,070 - WARNING - Invalid media type ' (min-width:1200px)' the whole @media rule was ignored at 5:232022.
+2025-03-20 20:19:21,071 - WARNING - Ignored `display:grid` at 5:232340, invalid value.
+2025-03-20 20:19:21,071 - WARNING - Ignored `display:inline-grid` at 5:232384, invalid value.
+2025-03-20 20:19:21,494 - WARNING - Unsupported computed value "" set in variable '--bs-btn-font-family' for property 'font-family'.
+2025-03-20 20:19:21,639 - WARNING - Unsupported computed value "inherit" set in variable '--bs-heading-color' for property 'color'.
+2025-03-20 20:19:21,669 - INFO - maxp pruned
+2025-03-20 20:19:21,737 - INFO - cmap pruned
+2025-03-20 20:19:21,738 - INFO - post pruned
+2025-03-20 20:19:21,739 - INFO - GPOS dropped
+2025-03-20 20:19:21,740 - INFO - GSUB dropped
+2025-03-20 20:19:21,740 - INFO - name pruned
+2025-03-20 20:19:21,789 - INFO - glyf pruned
+2025-03-20 20:19:21,790 - INFO - Added gid0 to subset
+2025-03-20 20:19:21,791 - INFO - Closing glyph list over 'glyf': 15 glyphs before
+2025-03-20 20:19:21,791 - INFO - Glyph names: ['.notdef', 'F', 'G', 'P', 'R', 'a', 'e', 'm', 'o', 'q', 'r', 's', 'space', 't', 'u']
+2025-03-20 20:19:21,792 - INFO - Glyph IDs:   [0, 5, 43, 44, 53, 55, 70, 74, 82, 84, 86, 87, 88, 89, 90]
+2025-03-20 20:19:21,792 - INFO - Closed glyph list over 'glyf': 15 glyphs after
+2025-03-20 20:19:21,793 - INFO - Glyph names: ['.notdef', 'F', 'G', 'P', 'R', 'a', 'e', 'm', 'o', 'q', 'r', 's', 'space', 't', 'u']
+2025-03-20 20:19:21,793 - INFO - Glyph IDs:   [0, 5, 43, 44, 53, 55, 70, 74, 82, 84, 86, 87, 88, 89, 90]
+2025-03-20 20:19:21,797 - INFO - Retaining 15 glyphs
+2025-03-20 20:19:21,797 - INFO - head subsetting not needed
+2025-03-20 20:19:21,798 - INFO - hhea subsetting not needed
+2025-03-20 20:19:21,798 - INFO - maxp subsetting not needed
+2025-03-20 20:19:21,798 - INFO - OS/2 subsetting not needed
+2025-03-20 20:19:21,802 - INFO - hmtx subsetted
+2025-03-20 20:19:21,805 - INFO - cmap subsetted
+2025-03-20 20:19:21,806 - INFO - loca subsetting not needed
+2025-03-20 20:19:21,806 - INFO - post subsetted
+2025-03-20 20:19:21,811 - INFO - GDEF subsetted
+2025-03-20 20:19:21,811 - INFO - name subsetting not needed
+2025-03-20 20:19:21,812 - INFO - glyf subsetted
+2025-03-20 20:19:21,813 - INFO - head pruned
+2025-03-20 20:19:21,814 - INFO - OS/2 Unicode ranges pruned: [0]
+2025-03-20 20:19:21,814 - INFO - glyf pruned
+2025-03-20 20:19:21,815 - INFO - GDEF pruned
+2025-03-20 20:19:21,823 - INFO - maxp pruned
+2025-03-20 20:19:21,843 - INFO - cmap pruned
+2025-03-20 20:19:21,843 - INFO - post pruned
+2025-03-20 20:19:21,844 - INFO - GPOS dropped
+2025-03-20 20:19:21,844 - INFO - GSUB dropped
+2025-03-20 20:19:21,844 - INFO - name pruned
+2025-03-20 20:19:21,850 - INFO - glyf pruned
+2025-03-20 20:19:21,851 - INFO - Added gid0 to subset
+2025-03-20 20:19:21,851 - INFO - Closing glyph list over 'glyf': 28 glyphs before
+2025-03-20 20:19:21,852 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'H', 'N', 'P', 'R', 'S', 'T', 'a', 'b', 'c', 'colon', 'd', 'e', 'i', 'l', 'm', 'n', 'o', 'r', 's', 'space', 't', 'u', 'v']
+2025-03-20 20:19:21,852 - INFO - Glyph IDs:   [0, 5, 31, 38, 40, 41, 43, 45, 51, 53, 55, 56, 57, 70, 71, 72, 73, 74, 78, 81, 82, 83, 84, 87, 88, 89, 90, 91]
+2025-03-20 20:19:21,853 - INFO - Closed glyph list over 'glyf': 29 glyphs after
+2025-03-20 20:19:21,853 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'H', 'N', 'P', 'R', 'S', 'T', 'a', 'b', 'c', 'colon', 'd', 'e', 'i', 'l', 'm', 'n', 'o', 'period', 'r', 's', 'space', 't', 'u', 'v']
+2025-03-20 20:19:21,853 - INFO - Glyph IDs:   [0, 5, 19, 31, 38, 40, 41, 43, 45, 51, 53, 55, 56, 57, 70, 71, 72, 73, 74, 78, 81, 82, 83, 84, 87, 88, 89, 90, 91]
+2025-03-20 20:19:21,855 - INFO - Retaining 29 glyphs
+2025-03-20 20:19:21,856 - INFO - head subsetting not needed
+2025-03-20 20:19:21,856 - INFO - hhea subsetting not needed
+2025-03-20 20:19:21,856 - INFO - maxp subsetting not needed
+2025-03-20 20:19:21,857 - INFO - OS/2 subsetting not needed
+2025-03-20 20:19:21,859 - INFO - hmtx subsetted
+2025-03-20 20:19:21,861 - INFO - cmap subsetted
+2025-03-20 20:19:21,862 - INFO - loca subsetting not needed
+2025-03-20 20:19:21,862 - INFO - post subsetted
+2025-03-20 20:19:21,865 - INFO - GDEF subsetted
+2025-03-20 20:19:21,865 - INFO - name subsetting not needed
+2025-03-20 20:19:21,867 - INFO - glyf subsetted
+2025-03-20 20:19:21,867 - INFO - head pruned
+2025-03-20 20:19:21,868 - INFO - OS/2 Unicode ranges pruned: [0]
+2025-03-20 20:19:21,868 - INFO - glyf pruned
+2025-03-20 20:19:21,869 - INFO - GDEF pruned
+2025-03-20 20:19:21,878 - INFO - maxp pruned
+2025-03-20 20:19:21,883 - INFO - cmap pruned
+2025-03-20 20:19:21,883 - INFO - prep dropped
+2025-03-20 20:19:21,883 - INFO - cvt  dropped
+2025-03-20 20:19:21,883 - INFO - post pruned
+2025-03-20 20:19:21,885 - INFO - GPOS dropped
+2025-03-20 20:19:21,885 - INFO - GSUB dropped
+2025-03-20 20:19:21,885 - INFO - name pruned
+2025-03-20 20:19:21,889 - INFO - glyf pruned
+2025-03-20 20:19:21,889 - INFO - Added gid0 to subset
+2025-03-20 20:19:21,889 - INFO - Closing glyph list over 'COLR': 2 glyphs before
+2025-03-20 20:19:21,890 - INFO - Glyph names: ['.notdef', 'space']
+2025-03-20 20:19:21,890 - INFO - Glyph IDs:   [0, 1]
+2025-03-20 20:19:21,906 - INFO - Closed glyph list over 'COLR': 2 glyphs after
+2025-03-20 20:19:21,906 - INFO - Glyph names: ['.notdef', 'space']
+2025-03-20 20:19:21,906 - INFO - Glyph IDs:   [0, 1]
+2025-03-20 20:19:21,907 - INFO - Closing glyph list over 'glyf': 2 glyphs before
+2025-03-20 20:19:21,907 - INFO - Glyph names: ['.notdef', 'space']
+2025-03-20 20:19:21,907 - INFO - Glyph IDs:   [0, 1]
+2025-03-20 20:19:21,907 - INFO - Closed glyph list over 'glyf': 2 glyphs after
+2025-03-20 20:19:21,908 - INFO - Glyph names: ['.notdef', 'space']
+2025-03-20 20:19:21,908 - INFO - Glyph IDs:   [0, 1]
+2025-03-20 20:19:21,909 - INFO - Retaining 2 glyphs
+2025-03-20 20:19:21,910 - INFO - head subsetting not needed
+2025-03-20 20:19:21,910 - INFO - hhea subsetting not needed
+2025-03-20 20:19:21,910 - INFO - maxp subsetting not needed
+2025-03-20 20:19:21,910 - INFO - OS/2 subsetting not needed
+2025-03-20 20:19:21,912 - INFO - hmtx subsetted
+2025-03-20 20:19:21,913 - INFO - cmap subsetted
+2025-03-20 20:19:21,913 - INFO - loca subsetting not needed
+2025-03-20 20:19:21,913 - INFO - post subsetted
+2025-03-20 20:19:21,913 - INFO - gasp subsetting not needed
+2025-03-20 20:19:21,923 - INFO - COLR subsetted to empty; dropped
+2025-03-20 20:19:21,924 - INFO - CPAL subsetting not needed
+2025-03-20 20:19:21,926 - INFO - GDEF subsetted
+2025-03-20 20:19:21,926 - INFO - name subsetting not needed
+2025-03-20 20:19:21,927 - INFO - glyf subsetted
+2025-03-20 20:19:21,928 - INFO - head pruned
+2025-03-20 20:19:21,929 - INFO - OS/2 Unicode ranges pruned: [0]
+2025-03-20 20:19:21,929 - INFO - glyf pruned
+2025-03-20 20:19:21,930 - INFO - CPAL pruned to empty; dropped
+2025-03-20 20:19:21,930 - INFO - GDEF pruned
+2025-03-21 05:20:27,144 - ERROR - Error filling form: docx2pdf is not implemented for linux as it requires Microsoft Word to be installed
+2025-03-21 05:32:25,026 - INFO - The CSRF token is missing.
+2025-03-21 05:32:45,005 - INFO - The CSRF token is missing.
+2025-03-21 05:37:58,996 - INFO - The CSRF token is missing.
+2025-03-21 05:40:46,631 - INFO - The CSRF token is missing.
+2025-03-21 05:48:35,788 - ERROR - Error running WSGI application
+2025-03-21 05:48:35,793 - ERROR - AttributeError: 'CSRFProtect' object has no attribute '_disable_on_request'
+2025-03-21 05:48:35,793 - ERROR -   File "/var/www/ravinder2115115_pythonanywhere_com_wsgi.py", line 15, in <module>
+2025-03-21 05:48:35,794 - ERROR -     from app import app as application  # Make sure `app.py` exists inside `/mysite/`
+2025-03-21 05:48:35,794 - ERROR - 
+2025-03-21 05:48:35,794 - ERROR -   File "/home/ravinder2115115/mysite/app.py", line 32, in <module>
+2025-03-21 05:48:35,794 - ERROR -     csrf._disable_on_request()  # Disable CSRF Check for All Requests
+2025-03-21 05:48:35,795 - ERROR - ***************************************************
+2025-03-21 05:48:35,795 - ERROR - If you're seeing an import error and don't know why,
+2025-03-21 05:48:35,795 - ERROR - we have a dedicated help page to help you debug: 
+2025-03-21 05:48:35,795 - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2025-03-21 05:48:35,796 - ERROR - ***************************************************
+2025-03-21 05:48:37,280 - ERROR - Error running WSGI application
+2025-03-21 05:48:37,281 - ERROR - AttributeError: 'CSRFProtect' object has no attribute '_disable_on_request'
+2025-03-21 05:48:37,281 - ERROR -   File "/var/www/ravinder2115115_pythonanywhere_com_wsgi.py", line 15, in <module>
+2025-03-21 05:48:37,282 - ERROR -     from app import app as application  # Make sure `app.py` exists inside `/mysite/`
+2025-03-21 05:48:37,282 - ERROR - 
+2025-03-21 05:48:37,282 - ERROR -   File "/home/ravinder2115115/mysite/app.py", line 32, in <module>
+2025-03-21 05:48:37,282 - ERROR -     csrf._disable_on_request()  # Disable CSRF Check for All Requests
+2025-03-21 05:48:37,283 - ERROR - ***************************************************
+2025-03-21 05:48:37,283 - ERROR - If you're seeing an import error and don't know why,
+2025-03-21 05:48:37,283 - ERROR - we have a dedicated help page to help you debug: 
+2025-03-21 05:48:37,283 - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2025-03-21 05:48:37,284 - ERROR - ***************************************************
